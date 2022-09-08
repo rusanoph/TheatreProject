@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="css\style.css" />
+        <link rel="stylesheet" href="css\style-form.css">
+        <title>Бронь абонемента</title>
+    </head>
+    <body>
+        <header>
+            <h1>Театр "LevoClevo"</h1>
+            <ul class="navbar-menu">
+                <a href="index.html">
+                    <li class="button-style" id="clr">На главную</li>
+                </a>
+                <a href="order_ticket.html">
+                    <li class="button-style" id="clr">Бронь билета</li>
+                </a>
+            </ul>
+        </header>
+
+        <article>
+            <div class="menu-center">
+                <div class="form-menu">
+                    <h2
+                        style="
+                            margin-top: 50px;
+                            margin-bottom: 50px;
+                            text-align: center;">
+                        Бронирование абонементов
+                    </h2>
+                    <form action="php\order_sub.php" method="post" id="order_sub_form">
+                        <ul class="wrapper">
+                          <!-- Фамилия  -->
+                          <li class="form-row">
+                            <label for="sername">Фамилия:</label>
+                            <input type="text" name="sername" id="sername">
+                          </li>
+
+                          <!-- Имя -->
+                          <li class="form-row">
+                            <label for="name">Имя:</label>
+                            <input type="text" name="name" id="name">
+                          </li>
+
+                          <!-- Отчество -->
+                          <li class="form-row">
+                            <label for="patronymic">Отчество:</label>
+                            <input type="text" name="patronymic" id="patronymic">
+                          </li>
+
+                          <!-- E-mail -->
+                          <li class="form-row">
+                            <label for="email">E-mail:</label>
+                            <input type="text" name="email" id="email">
+                          </li>
+
+                          <!-- Дата -->
+                          <li class="form-row">
+                            <label for="date-from">Дата ОТ:</label>
+                            <input type="date" name="date-from" id="date-from">
+                          </li>
+                          <li class="form-row">
+                            <label for="date-to">Дата ДО:</label>
+                            <input type="date" name="date-to" id="date-to">
+                          </li>
+
+                          <li class="form-row">
+                            <button type="submit" name="submit" class="button-style" id="submit">Бронирование</button>
+                          </li>
+                        </ul>
+                      </form>
+                </div>
+            </div>
+
+            <p>На данной странице Вы можете заказать электронную версию абонемента. 
+            </p>
+
+        </article>
+
+        <footer>
+			<h4>Дополнительная информация о сайте.</h4>
+
+			<p>© 2022 SUAI. All rights reserved.</p>
+			<p>Rusanov Maxim V. | group 4918</p>
+		</footer>
+    </body>
+</html>

@@ -1,0 +1,37 @@
+.menu-center {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.form-menu {
+    background: var(--teatre-img);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 40%;
+    border: 15px solid rgba(0, 0, 0, 0.7);
+
+    margin: 30px 0;
+}
+
+/* Стилизация формы входа */
+.wrapper {
+    list-style-type: none;
+    padding: 0;
+}
+
+.form-row {
+    display: flex;
+    padding: 10px;
+}
+
+.form-row label {
+    padding: 10px 20px 10px 0;
+    flex: 1;
+}
+
+.form-row input,
+.form-row button {
+    flex: 2;
+}
