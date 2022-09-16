@@ -2,6 +2,7 @@
 Automated system for theatre, where you can order tickets and subscriptions.
 
 Database schema:
+
 ![image](https://user-images.githubusercontent.com/70108263/190724564-3edf9ddb-2bd0-4844-8dc7-6cf00fdd7ebd.png)
 
 Below you can see an examples of this site: main page and admin page.
